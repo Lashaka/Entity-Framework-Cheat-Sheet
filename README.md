@@ -11,9 +11,11 @@ Add-Migration "Migration-Name" -IgnoreChanges: Adds a migration without changes 
 
 
 ## Establish Connection String
-" <connectionStrings>
+```xml
+<connectionStrings>
    <add name="MyDbContext" connectionString="YourConnectionStringHere" providerName="System.Data.SqlClient" />
- </connectionStrings>"
+</connectionStrings>
+
 
 
 ## DAL (data access layer) and web project heirarchy
