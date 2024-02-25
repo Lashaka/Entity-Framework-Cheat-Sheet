@@ -2,12 +2,12 @@
  
 
 ## Common commands
-Remove-Migration: Removes the last migration.
-Add-Migration "Migration-Name" -OutputDir "MigrationsFolder": Specifies the folder where migrations should be generated.
-Update-Database -TargetMigration "TargetMigrationName": Updates the database to a specific migration.
-Update-Database -Script: Generates a SQL script of the pending migrations.
-Enable-Migrations: Enables migrations for the project.
-Add-Migration "Migration-Name" -IgnoreChanges: Adds a migration without changes to the model.
+- **Remove-Migration:** Removes the last migration.
+- **Add-Migration "Migration-Name" -OutputDir "MigrationsFolder":** Specifies the folder where migrations should be generated.
+- **Update-Database -TargetMigration "TargetMigrationName":** Updates the database to a specific migration.
+- **Update-Database -Script:** Generates a SQL script of the pending migrations.
+- **Enable-Migrations:** Enables migrations for the project.
+- **Add-Migration "Migration-Name" -IgnoreChanges:** Adds a migration without changes to the model.
 
 
 ## Establish Connection String
