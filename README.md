@@ -9,6 +9,13 @@
 - **Enable-Migrations:** Enables migrations for the project.
 - **Add-Migration "Migration-Name" -IgnoreChanges:** Adds a migration without changes to the model.
 
+## dotnet-ef commands
+- **dotnet-ef --project <path>migrations add new-migration-form:**  add path migration
+- **dotnet-ef --project <path> database update:** update db path
+- **dotnet-ef migrations add <MigrationsName>:** add default project migration
+- **dotnet-ef database update:** dsad update db default project
+
+dotnet-ef --project <path> database update
 
 ## Establish Connection String
 ```xml
